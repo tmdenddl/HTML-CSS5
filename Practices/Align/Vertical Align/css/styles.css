@@ -1,0 +1,23 @@
+.container {
+    background-color: orange;
+}
+
+.alex {
+    font-size: 90px;
+    background-color: pink;
+    vertical-align: top;
+    /*Vertical-algin: top은 해당 요소의 윗부분이 해당 요소를 제외한 가장 높은 요소의 위와 정렬이 된다*/
+    /*CSS는 최대한 부모 요소의 높이에 영향을 주지 않는 옵션을 선택하게 된다*/
+}
+
+.ben {
+    font-size: 30px;
+    background-color: lime;
+    vertical-align: middle;
+    /*Vertical-algin: middle은 부모 요소의 중앙과 현재 요소의 중앙이 정렬이 된다*/
+}
+
+.chris {
+    font-size: 60px;
+    background-color: yellow;
+}

@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+/* 전체 */
+div {
+    float: left;
+}
+
+/* 모바일 사이즈 (767px 이하) */
+#red {
+    width: 100%;
+    height: 60px;
+    background-color: #ff0000;
+}
+
+#orange {
+    width: 100%;
+    height: 350px;
+    background-color: #ffa500;
+}
+
+#yellow {
+    width: 100%;
+    height: 320px;
+    background-color: #ffff00;
+}
+
+#green {
+    width: 100%;
+    height: 385px;
+    background-color: #008000;
+}
+
+#blue {
+    width: 100%;
+    height: 200px;
+    background-color: #0000ff;
+}
+
+#purple {
+    width: 100%;
+    height: 200px;
+    background-color: #4b0082;
+}
+
+/* 테블릿 사이즈 (768px 이상, 991px 이하) */
+@media (min-width: 768px) {
+    #orange {
+        height: 562px;
+    }
+    
+    #yellow {
+        height: 282px;
+    }
+    
+    #green {
+        width: 50%;
+        height: 360px;
+    }
+    
+    #blue {
+        width: 50%;
+        height: 180px;
+    }
+    
+    #purple {
+        width: 50%;
+        height: 180px;
+    }
+}
+
+/* 기본: 데스크탑 사이즈 (992px 이상) */
+
+@media (min-width: 992px) {
+    #orange {
+        width: 50%;
+        height: 700px;
+    }
+    
+    #yellow {
+        width: 50%;
+        height: 350px;
+    }
+    
+    #green {
+        width: 25%;
+        height: 350px;
+    }
+    
+    #blue {
+        width: 25%;
+        height: 175px;
+    }
+    
+    #purple {
+        width: 25%;
+        height: 175px;
+    }
+}

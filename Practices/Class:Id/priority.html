@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>애국</title>
+    <meta charset="utf-8">
+
+       <style>
+        .no1{ /* class 값 1개 : 명시도 10점 */
+         color: red;
+        }
+        #no2{ /* id 값 1개 : 명시도 100점 */
+         color: lime;
+        }
+        .no1 .no3{ /* class 값 2개 : 명시도 20점 */
+          color: blue;
+        }
+        .no4{ /* class 값 1개 : 명시도 10점 */
+          color: yellow;
+        }
+        .no4{ /* class 값 1개 : 명시도 10점 (but 위쪽 .no4과 겹칠 경우 더 나중에 선언 되었기 때문에 해당 스타일이 적용 ! ) */
+          color: green;
+        }
+    </style>
+    
+    <div class ='no1'>
+        <p class ='no3'>동해물과 백두산이 마르고 닳도록</p> <!-- '.no1 .no3' 에 의해 color: blue; 적용 -->
+        <p id='no2'>하느님이 보우하사 우리나라 만세</p> <!-- #no2 에 의해 color: lime; 적용 -->
+        <p>무궁화 삼천리 화려강산</p>  <!-- .no1 에 의한 상속으로 color: red; 적용 -->
+        <p class='no4'>대~한 사람 대한으로</p>  <!-- .no1 보다 직접적인 선언으로 .no4 에 의해 color: green; 적용 -->
+    </div>
+</html>

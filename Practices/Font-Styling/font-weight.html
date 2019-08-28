@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Styling Text!</title>
+		<meta charset="utf-8">
+
+		<style>
+			p {
+				font-size: 32px;
+				font-weight: 100; /*100(얇음) - 900(굵)*/
+				text-align: center; /*정렬*/
+				text-decoration: underline; /*텍스트 데코레이션 예) 언더라*/
+				color: darkblue;
+			}
+
+			a {
+				text-decoration: none; /*링크에서 언더라인을 없앤다*/
+			}
+
+			.menu { /*-- 이렇게 하면 링크<a>가 들어있는 <div>블락이 정렬된다*/
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>텍스트를 다양하게 스타일링 해봅시다!</p>
+
+		<div class="menu"> <!-- 이렇게 하면 링크<a>가 <div>블락 안으로 들어가게 된다 -->
+		<a href="https://google.com">구글로 가는 링크</a>
+		</div>
+	</body>
+</html>

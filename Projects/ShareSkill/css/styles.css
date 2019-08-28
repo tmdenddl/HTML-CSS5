@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+  
+  }
+  
+  #cooking {
+    background-position: center center;
+  }
+  
+  #makeup {
+    background-position: center top;
+  }
+  
+  #musician {
+    background-position: left center;
+  }
+  
+  .carousel-item {
+    /* height: 400px; */
+  }
+  
+  #alertmargin {
+    margin-top: 50px;
+    margin-bottom: 16px;
+  }
+  
+  .col-sm {
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  
+  }
+  
+  h3 {
+    padding-bottom: 18px;
+    font-size: 32px;
+    color: white;
+  }
+  
+  h4 {
+    padding-bottom: 48px;
+    font-size: 22px;
+    color: white;
+  }
+  
+  h5 {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #4A4A4A;
+  }
+  
+  p {
+    font-weight: bold;
+    font-size: 13px;
+    color: #4A4A4A;
+  }
+  
+  .link {
+    font-size: 16px;
+    background-color: #5900E7;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+  }
+  
+  .carousel-item {
+    vertical-align: center;
+    background-size: cover;
+    line-height: 400px;
+  }
+  
+  .col-sm {
+    width: 300px;
+    /* background-color: red; */
+  }
+  
+  .row {
+    /* float: left; */
+  }
+  

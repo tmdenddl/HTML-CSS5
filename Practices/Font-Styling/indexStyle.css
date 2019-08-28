@@ -1,0 +1,25 @@
+indexStyle.css
+
+#serif {
+    font-family: "Serif";
+}
+
+#sans-serif {
+    font-family: "Sans-serif";
+}
+
+#monospace {
+    font-family: "Monospace";
+}
+
+#cursive {
+    font-family: "Cursive";
+}
+
+#fantasy {
+    font-family: "Fantasy";
+}
+
+#google {
+    font-family: 'Noto Sans', sans-serif;
+}
